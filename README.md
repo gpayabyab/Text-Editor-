@@ -1,5 +1,14 @@
 # Text-Editor-
+#Text-Editor
+The Text-Editor application is a text editor that runs in the browser. The app is a single-page application that meets PWA criteria. Additionally, it features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
 
+#User Story: 
+AS A developer
+I WANT to create notes or code snippets with or without an internet connection
+SO THAT I can reliably retrieve them for later use
+
+
+#Aceptance Criteria: 
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure 
@@ -25,3 +34,9 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Render
 THEN I should have proper build scripts for a webpack application
+
+# Contributing
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
